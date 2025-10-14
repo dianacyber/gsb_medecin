@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Doctor {
   id: number;
-  firstName: string;
+  firstName: string | undefined;
   lastName: string;
   email: string;
   speciality: string;
