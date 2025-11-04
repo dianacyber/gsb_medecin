@@ -84,6 +84,19 @@
             "styles": [
               "src/styles.css"
             ]
+            {
+              "projects": {
+                "gsb-doctors": {
+                  "architect": {
+                    "build": { 
+                      "options": { 
+                        "assets": ["src/favicon.ico", "src/assets"] 
+                        } 
+                     }
+                  }
+                }
+              }
+            }
           }
         }
       }
