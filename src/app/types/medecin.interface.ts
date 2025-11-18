@@ -5,4 +5,5 @@ export interface Medecin {
     email: string;
     specialite: string;
     adresse: string;
+    specialitecomplementaire: string;
   }
